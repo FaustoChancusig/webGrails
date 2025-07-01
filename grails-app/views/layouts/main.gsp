@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>
+        <g:layoutTitle default="Grails"/>
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <asset:link rel="icon" href="favicon.ico" type="image/x-ico"/>
+    <asset:stylesheet src="application.css"/>
+    <asset:stylesheet src="font-awesome.min.css"/>
+
+    <asset:stylesheet src="bootstrap.css"/>
+    <asset:javascript src="jquery-3.3.1.min.js"/>
+    <asset:javascript src="bootstrap.js"/>
+    <asset:javascript src="bootstrap.bundle.js"/>
+
+    <asset:javascript src="bootbox.js"/>
+    <asset:javascript src="fontawesome.all.min.js"/>
+
+    <asset:stylesheet src="bootstrap-datetimepicker.min.css"/>
+    <asset:javascript src="moment.js"/>
+    <asset:javascript src="moment-with-locales.js"/>
+    <asset:javascript src="bootstrap-datetimepicker.min.js"/>
+
+    <g:layoutHead/>
+</head>
+
+<body>
+
+
+
+<g:layoutBody/>
+
+
+<div id="spinner" class="spinner" style="display:none;">
+    <g:message code="spinner.alt" default="Loading&hellip;"/>
+</div>
+
+<asset:javascript src="application.js"/>
+
+</body>
+</html>
